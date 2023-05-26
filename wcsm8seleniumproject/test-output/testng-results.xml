@@ -2,22 +2,68 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-24T12:12:07 IST" name="Suite" finished-at="2023-05-24T12:12:33 IST" duration-ms="26946">
+  <suite started-at="2023-05-26T09:11:06 IST" name="Suite" finished-at="2023-05-26T09:11:50 IST" duration-ms="43204">
     <groups>
     </groups>
-    <test started-at="2023-05-24T12:12:07 IST" name="Test" finished-at="2023-05-24T12:12:33 IST" duration-ms="26946">
-      <class name="teatNGPackage2.ActiTime2">
-        <test-method signature="loginMethod()[pri:0, instance:teatNGPackage2.ActiTime2@59af0466]" started-at="2023-05-24T12:12:07 IST" name="loginMethod" finished-at="2023-05-24T12:12:33 IST" duration-ms="26772" status="PASS">
+    <test started-at="2023-05-26T09:11:06 IST" name="testChrome" finished-at="2023-05-26T09:11:28 IST" duration-ms="21602">
+      <class name="testNGExecution.SelectBrowser1">
+        <test-method signature="method1(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGExecution.SelectBrowser1@62230c58]" started-at="2023-05-26T09:11:07 IST" name="method1" finished-at="2023-05-26T09:11:28 IST" duration-ms="21429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://desktop-3darda3/login.do]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginMethod -->
-      </class> <!-- teatNGPackage2.ActiTime2 -->
-      <class name="teatNGPackage2.ActiTime1">
-        <test-method signature="loginMethod()[pri:0, instance:teatNGPackage2.ActiTime1@120f102b]" started-at="2023-05-24T12:12:07 IST" name="loginMethod" finished-at="2023-05-24T12:12:33 IST" duration-ms="26131" status="PASS">
+        </test-method> <!-- method1 -->
+      </class> <!-- testNGExecution.SelectBrowser1 -->
+    </test> <!-- testChrome -->
+    <test started-at="2023-05-26T09:11:28 IST" name="testEdge" finished-at="2023-05-26T09:11:50 IST" duration-ms="21453">
+      <class name="testNGExecution.SelectBrowser1">
+        <test-method signature="method1(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGExecution.SelectBrowser1@662b4c69]" started-at="2023-05-26T09:11:28 IST" name="method1" finished-at="2023-05-26T09:11:50 IST" duration-ms="21445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://desktop-3darda3/login.do]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginMethod -->
-      </class> <!-- teatNGPackage2.ActiTime1 -->
-    </test> <!-- Test -->
+        </test-method> <!-- method1 -->
+      </class> <!-- testNGExecution.SelectBrowser1 -->
+    </test> <!-- testEdge -->
   </suite> <!-- Suite -->
 </testng-results>
