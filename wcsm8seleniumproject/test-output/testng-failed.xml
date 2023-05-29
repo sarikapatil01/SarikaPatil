@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="testChrome(failed)">
-    <parameter name="password" value="manager"/>
-    <parameter name="browserValue" value="chrome"/>
-    <parameter name="url" value="http://desktop-3darda3/login.do"/>
-    <parameter name="username" value="admin"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGExecution.SelectBrowser1">
+      <class name="dyanamicScreenShot.AssertionInTestNG">
         <methods>
-          <include name="method1"/>
+          <include name="property"/>
+          <include name="setUp"/>
+          <include name="login"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testNGExecution.SelectBrowser1 -->
+      </class> <!-- dyanamicScreenShot.AssertionInTestNG -->
     </classes>
-  </test> <!-- testChrome(failed) -->
-  <test thread-count="5" parallel="tests" name="testEdge(failed)">
-    <parameter name="password" value="manager"/>
-    <parameter name="browserValue" value="Edge"/>
-    <parameter name="url" value="http://desktop-3darda3/login.do"/>
-    <parameter name="username" value="admin"/>
-    <classes>
-      <class name="testNGExecution.SelectBrowser1">
-        <methods>
-          <include name="method1"/>
-        </methods>
-      </class> <!-- testNGExecution.SelectBrowser1 -->
-    </classes>
-  </test> <!-- testEdge(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -5,19 +5,19 @@ import org.testng.annotations.Test;
 
 public class GoogleSearchTestCase extends BaseTest {
 	
-	@Test
+	@Test(description = "Search for JAVA !!")
 	public void search1()
 	{
 		driver.switchTo().activeElement().sendKeys("JAVA", Keys.ENTER);
 	}
 	
-	@Test
+	@Test(description = "Search for SQL")
 	public void search2()
 	{
 		driver.switchTo().activeElement().sendKeys("SQL",Keys.ENTER);
 	}
 	
-	@Test
+	@Test(description = "Search for Selenium")
 	public void search3()
 	{
 		driver.switchTo().activeElement().sendKeys("SELENIUM",Keys.ENTER);
